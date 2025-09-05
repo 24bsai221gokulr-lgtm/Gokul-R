@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Digital portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Title: Digital portfolio -->
+<header class="hero" id="home">
+  <div class="container">
+    <h1 class="hello">Hello, I'm <span>Gokul</span> 👋</h1>
+    <p class="tagline">Aspiring developer — simple, fast, and user-friendly web & AI projects.</p>
+    <a href="#projects" class="btn primary">View My Work</a>
+  </div>
+</header>
+
+<main>
+  <!-- About Me -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-wrap">
+        <img src="https://via.placeholder.com/220x220.png?text=Your+Photo" alt="Gokul profile photo" class="avatar" />
+        <p class="about-line">I love building digital experiences and exploring AI to solve real-world problems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="card">
+          <h3>Project 1: Digital Portfolio</h3>
+          <p>A sleek personal site to showcase skills and work.</p>
+          <a class="btn ghost" href="#home">Preview</a>
+        </article>
+        <article class="card">
+          <h3>Project 2: AI Project</h3>
+          <p>Small ML demo with smart predictions.</p>
+          <a class="btn ghost" href="#home">Preview</a>
+        </article>
+        <article class="card">
+          <h3>Project 3: Medical Diagnosis</h3>
+          <p>Concept app assisting preliminary health insights.</p>
+          <a class="btn ghost" href="#home">Preview</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+
+      <!-- Vertical single-single boxes (inputs stacked) -->
+      <form id="contactForm" class="contact-form" novalidate>
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" value="Gokul.R" required />
+        </label>
+
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" value="24bsai221gokulr@skacas.ac.in" required />
+        </label>
+
+        <label>
+          <span>Contact Number</span>
+          <input type="tel" name="phone" value="7604996535" required />
+        </label>
+
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" placeholder="Type your message here..."></textarea>
+        </label>
+
+        <!-- Send box -->
+        <button type="submit" class="btn primary">Send</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© <span id="year"></span> Gokul • Digital Portfolio</p>
+  </div>
+</footer>
+<!-- About Me -->
+<section class="section" id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="about-wrap">
+      <!-- Updated profile photo -->
+      <img src="https://i.ibb.co/RpybDvwx/your-image.jpg" 
+           alt="Gokul profile photo" class="avatar" />
+      <p class="about-line">
+        I love building digital experiences and exploring AI to solve real-world problems.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
